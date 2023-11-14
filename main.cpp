@@ -5,7 +5,19 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
-    return 0;
+   char znack = '+';
+   switch (znack)
+   {
+       case '+': cout << '+';
+        break;
+       case '-': cout << '-';
+        break;
+       case '*': cout << '*';
+        break;
+       case '/': cout << '/';
+        break;
+       default: cout << "error";
+        break;
+   }
 }
 
