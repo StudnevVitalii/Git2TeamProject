@@ -7,6 +7,11 @@ using namespace std;
 int main()
 {
    char znack = '+';
+   double number1, number2;
+   cout << "Enter first number :";
+   cin >> number1;
+   cout << "Enter second number :";
+   cin >> number2;
    switch (znack)
    {
        case '+': cout << '+';
@@ -20,5 +25,7 @@ int main()
        default: cout << "error";
         break;
    }
+   system("pause");
+   return 0;
 }
 
