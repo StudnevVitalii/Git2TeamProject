@@ -9,6 +9,6 @@ double umnozhenie(double a, double b){
 double delenie(double a, double b){
     return a / b;
 }
-double vichitanie(double, double){
+double vichitanie(double a, double b){
     return a - b;
 }
