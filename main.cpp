@@ -14,7 +14,7 @@ int main()
    cin >> number2;
    switch (znack)
    {
-       case '+': cout << '+';
+       case '+': cout << slojenie(number1, number2);
         break;
        case '-': cout << '-';
         break;
